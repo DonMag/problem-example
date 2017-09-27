@@ -14,6 +14,10 @@
 		7E6DA3361F7BEA2B00B37258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6DA3341F7BEA2B00B37258 /* LaunchScreen.storyboard */; };
 		7E6DA3411F7BEA2B00B37258 /* problem_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DA3401F7BEA2B00B37258 /* problem_exampleTests.swift */; };
 		7E6DA34C1F7BEA2B00B37258 /* problem_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DA34B1F7BEA2B00B37258 /* problem_exampleUITests.swift */; };
+		7E6DA35B1F7BEA5000B37258 /* ParentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DA3591F7BEA5000B37258 /* ParentTableViewCell.swift */; };
+		7E6DA35C1F7BEA5000B37258 /* ParentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6DA35A1F7BEA5000B37258 /* ParentTableViewCell.xib */; };
+		7E6DA35F1F7BEA6700B37258 /* InnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DA35D1F7BEA6700B37258 /* InnerTableViewCell.swift */; };
+		7E6DA3601F7BEA6700B37258 /* InnerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6DA35E1F7BEA6700B37258 /* InnerTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		7E6DA3471F7BEA2B00B37258 /* problem exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "problem exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6DA34B1F7BEA2B00B37258 /* problem_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = problem_exampleUITests.swift; sourceTree = "<group>"; };
 		7E6DA34D1F7BEA2B00B37258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6DA3591F7BEA5000B37258 /* ParentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentTableViewCell.swift; sourceTree = "<group>"; };
+		7E6DA35A1F7BEA5000B37258 /* ParentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentTableViewCell.xib; sourceTree = "<group>"; };
+		7E6DA35D1F7BEA6700B37258 /* InnerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerTableViewCell.swift; sourceTree = "<group>"; };
+		7E6DA35E1F7BEA6700B37258 /* InnerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InnerTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				7E6DA32B1F7BEA2B00B37258 /* AppDelegate.swift */,
 				7E6DA32D1F7BEA2B00B37258 /* ViewController.swift */,
+				7E6DA3591F7BEA5000B37258 /* ParentTableViewCell.swift */,
+				7E6DA35A1F7BEA5000B37258 /* ParentTableViewCell.xib */,
+				7E6DA35D1F7BEA6700B37258 /* InnerTableViewCell.swift */,
+				7E6DA35E1F7BEA6700B37258 /* InnerTableViewCell.xib */,
 				7E6DA32F1F7BEA2B00B37258 /* Main.storyboard */,
 				7E6DA3321F7BEA2B00B37258 /* Assets.xcassets */,
 				7E6DA3341F7BEA2B00B37258 /* LaunchScreen.storyboard */,
@@ -233,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6DA3361F7BEA2B00B37258 /* LaunchScreen.storyboard in Resources */,
+				7E6DA35C1F7BEA5000B37258 /* ParentTableViewCell.xib in Resources */,
 				7E6DA3331F7BEA2B00B37258 /* Assets.xcassets in Resources */,
+				7E6DA3601F7BEA6700B37258 /* InnerTableViewCell.xib in Resources */,
 				7E6DA3311F7BEA2B00B37258 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +275,8 @@
 			files = (
 				7E6DA32E1F7BEA2B00B37258 /* ViewController.swift in Sources */,
 				7E6DA32C1F7BEA2B00B37258 /* AppDelegate.swift in Sources */,
+				7E6DA35F1F7BEA6700B37258 /* InnerTableViewCell.swift in Sources */,
+				7E6DA35B1F7BEA5000B37258 /* ParentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
